@@ -1,0 +1,383 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1180px;
+}
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 10px 6px;
+    gap: 50px;
+    position: absolute;
+    width: 100%; 
+    height: 100px;
+    left: 0; 
+    top: 0;
+    background: #FFFFFF;
+    border-bottom: 0.12px solid #828282;
+  }
+  
+  
+
+
+.interns img{
+width: 32px;
+height: 31.46px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.internmeets{
+width: 10px;
+height: 19px;
+font-family: "Montserrat", serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #252525;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.interns{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+width: 155px;
+height: 51.46px;
+border-radius: 36px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.nav{
+width: 624px;
+height: 46px;
+flex: none;
+order: 1;
+flex-grow: 0;
+justify-content: space-between;
+align-items: center;
+display: flex;
+
+
+
+}
+
+.internship{
+display: flex;
+flex-direction: row;
+font-family: "Montserrat", serif;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+font-size: 16px;
+color: black;
+
+}
+
+.internship img{
+width: 16px;
+height: 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.jobs{
+display: flex;
+flex-direction: row;
+font-family: "Montserrat", serif;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+font-size: 16px;
+color: black;
+
+}
+
+.jobs img{
+width: 16px;
+height: 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.certification{
+display: flex;
+flex-direction: row;
+font-family: "Montserrat", serif;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+font-size: 16px;
+color: black;
+
+}
+
+.certification img{
+width: 16px;
+height: 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.training{
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat", serif;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 16px;
+    color: black;  
+}
+
+.training img{
+    width: 16px;
+    height: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0; 
+}
+
+.more{
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat", serif;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 16px;
+    color: black;  
+}
+
+.more img{
+    width: 16px;
+    height: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0; 
+}
+
+.search{
+width: 50px;
+height: 50px;
+display: flex;
+flex-direction: row;
+font-family: "Montserrat", serif;
+justify-content: center;
+align-items: center;
+padding: 10px 44px;
+gap: 10px;
+width: 200px;
+height: 30px;
+background: #F8F8F8;
+border-radius: 36px;
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.search img{
+width: 32px;
+height: 32px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.bookmarklogo{
+width: 32px;
+height: 32px;
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.bookmarklogo img{
+    width: 32px;
+    height: 32px;
+}
+
+.message{
+width: 32px;
+height: 32px;
+flex: none;
+order: 4;
+flex-grow: 0;
+
+}
+
+.message img{
+    width: 32px;
+    height: 32px;
+}
+
+.notification{
+width: 32px;
+height: 32px;
+flex: none;
+order: 4;
+flex-grow: 0;
+
+}
+
+.notification img{
+    width: 32px;
+    height: 32px;
+
+}
+
+.profile{
+
+height: 32px;
+width: 52px;
+
+position: absolute;
+right: 0.5%;
+
+background: #3F3F3F;
+box-shadow: inset 0px 1px 5.1px rgba(0, 0, 0, 0.52);
+border-radius: 68px;
+
+}
+
+.profile img{
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 28px;
+top: calc(50% - 16px/2 - 0.5px);
+}
+
+.pic img {
+    position: absolute;
+    top: 14%;
+    left: 8%;
+    background: #ff0000;
+    border-radius: 100%;  /* Makes it fully circular if width and height are equal */
+    width: 23px;  /* Set width */
+    height: 23px;  /* Set height */
+  }
+  
+
+.profile img{
+right: 140%;
+border-radius: 35px;  
+}
+
+
+.headingbook {
+width: 244px; 
+height: 57px; 
+text-align: center; 
+    top: 230px; 
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    opacity: 1; 
+    font-size: 30px;
+    font-family: "Montserrat", serif;
+
+}
+
+.nobookmark img{
+    position: absolute;
+    top: 250px;
+    width: 700;
+    height: 500;
+    align-items: center;
+    left: 400px;
+    
+}
+
+.emptybookmark{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+position: absolute;
+width: 305px;
+height: 57px;
+left: calc(50% - 305px/2 + 0.5px);
+top: 780px;
+font-family: "Montserrat", serif;
+font-size: 30px;
+font-weight: 600;
+
+}
+
+.subempty{
+width: 616px;
+height: 21px;
+text-align: center;
+top: 900px;
+opacity: 1;
+position: absolute;
+left: calc(50% - 616px/2 + 0.5px);
+font-family: "Montserrat", serif;
+font-weight: 500;
+font-weight: 400;
+line-height: 115%;
+color: #828282;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.browse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    position: relative;
+    width: 224px;
+    height: 52px;
+    left: calc(50% - 224px / 2); /* Centers it horizontally */
+    top: 980px; /* Keeps it at the same position from the top */
+    margin-bottom: 130px; /* Adds 30px of white space below the element */
+    border: 3px solid #9747FF;
+    border-radius: 40px;
+    overflow: visible;
+  }
+  
